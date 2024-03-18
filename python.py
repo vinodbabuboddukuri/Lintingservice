@@ -1,5 +1,9 @@
 # Sample Python script for linting
 
+"""
+This module provides functions for basic arithmetic operations.
+"""
+
 def add_numbers(a, b):
     """
     Adds two numbers and returns the result.
