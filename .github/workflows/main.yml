@@ -27,4 +27,4 @@ jobs:
           
       - name: Lint Python code
         run: |
-          pylint your_python_python.py  # Replace 'your_python_script.py' with your actual Python script name
+          pylint python.py  # Replace 'your_python_script.py' with your actual Python script name
