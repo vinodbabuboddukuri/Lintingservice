@@ -38,7 +38,7 @@ def main():
     result1 = add_numbers(5, 3)
     result2 = subtract_numbers(10, 4)
     print("Result of adding result:", result1)
-    printf("Result of subtracting:", result2)
+    print("Result of subtracting:", result2)
 
 if __name__ == "__main__":
     main()
