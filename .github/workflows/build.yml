@@ -3,10 +3,10 @@ name: Python Lint
 on:
   push:
     branches:
-      - main
+      - feature
   pull_request:
     branches:
-      - main
+      - feature
 
 jobs:
   lint_and_scan:
