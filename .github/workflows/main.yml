@@ -6,7 +6,6 @@ on:
     types:
       - success
 
-
 jobs:
   build:
     name: Build
