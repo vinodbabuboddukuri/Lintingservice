@@ -8,10 +8,7 @@ WORKDIR /app
 COPY python.py /app/python.py
 
 # Install any needed dependencies
-RUN pip install --no-cache-dir pylint
-
-# Run pylint to lint the Python script
-RUN pylint python.py
+RUN pip install --no-cache-dir pylint && pylint python.py
 
 # Define environment variable
 ENV GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/credentials.json
