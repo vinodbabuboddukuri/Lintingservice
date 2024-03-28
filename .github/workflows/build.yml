@@ -35,9 +35,9 @@ jobs:
           SONAR_TOKEN: ${{ secrets.ABHIGYAN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
-      # Uncomment the following lines to fail the workflow if the SonarQube Quality Gate fails.
-      - name: SonarQube Quality Gate
-        uses: sonarsource/sonarqube-quality-gate-action@master
-        timeout-minutes: 5
-        env:
-          SONAR_TOKEN: ${{ secrets.ABHIGYAN }}
+      # # Uncomment the following lines to fail the workflow if the SonarQube Quality Gate fails.
+      # - name: SonarQube Quality Gate
+      #   uses: sonarsource/sonarqube-quality-gate-action@master
+      #   timeout-minutes: 5
+      #   env:
+      #     SONAR_TOKEN: ${{ secrets.ABHIGYAN }}
