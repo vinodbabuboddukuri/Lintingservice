@@ -32,7 +32,7 @@ jobs:
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: ${{ secrets.abhigyan }}
+          SONAR_TOKEN: ${{ secrets.ABHIGYAN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
     Uncomment the following lines to fail the workflow if the SonarQube Quality Gate fails.
@@ -40,4 +40,4 @@ jobs:
       uses: sonarsource/sonarqube-quality-gate-action@master
       timeout-minutes: 5
       env:
-        SONAR_TOKEN: ${{ secrets.abhigyan }}
+        SONAR_TOKEN: ${{ secrets.ABHIGYAN }}
